@@ -16,5 +16,6 @@ struct BuildingListsAndNavigation: View {
 struct BuildingListsAndNavigation_Previews: PreviewProvider {
     static var previews: some View {
         BuildingListsAndNavigation()
+            .environmentObject(ModelData())
     }
 }

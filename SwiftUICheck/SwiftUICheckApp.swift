@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUICheckApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             BuildingListsAndNavigation()
+                .environmentObject(modelData)
         }
     }
 }
