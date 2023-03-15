@@ -19,15 +19,10 @@ struct LandmarkRow: View {
             
             Spacer()
             
-            if landmark.isFavorite {
-                Image(systemName: "star.fill")
-                    .foregroundColor(.yellow)
-                    .padding(4)
-            } else {
-                Image(systemName: "star.fill")
-                    .foregroundColor(.gray)
-                    .padding(4)
-            }
+            let isFavorite = landmark.isFavorite
+            Image(systemName: isFavorite ? "star.fill": "star")
+                .foregroundColor(isFavorite ? .yellow : .gray)
+                .padding(4)
         }
     }
 }
