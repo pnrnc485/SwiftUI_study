@@ -48,6 +48,7 @@
 		ABFA08AD29CD41AC006C8C1F /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA08AC29CD41AC006C8C1F /* PageViewController.swift */; };
 		ABFA08AF29CD4826006C8C1F /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA08AE29CD4826006C8C1F /* FeatureCard.swift */; };
 		ABFA08B129CD4AF8006C8C1F /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA08B029CD4AF8006C8C1F /* PageView.swift */; };
+		ABFA08B329CD81DB006C8C1F /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA08B229CD81DB006C8C1F /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		ABFA08AC29CD41AC006C8C1F /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		ABFA08AE29CD4826006C8C1F /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		ABFA08B029CD4AF8006C8C1F /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		ABFA08B229CD81DB006C8C1F /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,11 +144,11 @@
 		AB0BC59329C1680C00B31132 /* 3.DrawingPathsAndShapes */ = {
 			isa = PBXGroup;
 			children = (
-				AB0BC59429C1683900B31132 /* HexagonParameters.swift */,
+				AB0BC59C29C1800000B31132 /* Badge.swift */,
 				AB0BC59629C168E200B31132 /* BadgeBackground.swift */,
 				AB0BC59829C16CC800B31132 /* BadgeSymbol.swift */,
+				AB0BC59429C1683900B31132 /* HexagonParameters.swift */,
 				AB0BC59A29C16E6000B31132 /* RotatedBadgeSymbol.swift */,
-				AB0BC59C29C1800000B31132 /* Badge.swift */,
 			);
 			path = 3.DrawingPathsAndShapes;
 			sourceTree = "<group>";
@@ -337,6 +339,7 @@
 				ABFA08AC29CD41AC006C8C1F /* PageViewController.swift */,
 				ABFA08AE29CD4826006C8C1F /* FeatureCard.swift */,
 				ABFA08B029CD4AF8006C8C1F /* PageView.swift */,
+				ABFA08B229CD81DB006C8C1F /* PageControl.swift */,
 			);
 			path = 7.InterfacingWithUIKit;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				AB0BC5BE29C3040300B31132 /* HikeBadge.swift in Sources */,
 				ABC217E229BEBF46008813AB /* SwiftUICheckApp.swift in Sources */,
 				AB0BC59B29C16E6000B31132 /* RotatedBadgeSymbol.swift in Sources */,
+				ABFA08B329CD81DB006C8C1F /* PageControl.swift in Sources */,
 				ABFA08B129CD4AF8006C8C1F /* PageView.swift in Sources */,
 				AB0BC59929C16CC800B31132 /* BadgeSymbol.swift in Sources */,
 				ABFA08AD29CD41AC006C8C1F /* PageViewController.swift in Sources */,
