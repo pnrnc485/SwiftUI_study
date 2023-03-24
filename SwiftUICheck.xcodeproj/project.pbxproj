@@ -245,6 +245,7 @@
 				AB0BC59E29C1843200B31132 /* 4.AnimatingViewsAndTransitions */,
 				AB0BC5AC29C2E04D00B31132 /* 5.ComposingComplexInterfaces */,
 				AB0BC5B529C2FF4300B31132 /* 6.WorkingWithUIControls */,
+				ABFA08AB29CD3F15006C8C1F /* 7.InterfacingWithUIKit */,
 				ABC217E729BEBF47008813AB /* Preview Content */,
 			);
 			path = SwiftUICheck;
@@ -322,6 +323,13 @@
 				ABC2181129BF1A4D008813AB /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABFA08AB29CD3F15006C8C1F /* 7.InterfacingWithUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 7.InterfacingWithUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
